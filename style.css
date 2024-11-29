@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF7D1;
+}
+
+header {
+    background-color: #FFB0B0;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #FFEC8C;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #000;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFB0B0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFEC8C;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li, ol li {
+    background-color: #FFD09B;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+ul li:hover, ol li:hover {
+    background-color: #FFB0B0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #FFB0B0;
+    color: #fff;
+}
+
+td:hover {
+    background-color: #FFEC8C;
+}
+
+.profile-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #FFB0B0;
+}
