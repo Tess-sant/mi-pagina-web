@@ -90,3 +90,32 @@ td:hover {
     height: auto;
     border: 2px solid #FFB0B0;
 }
+
+form {
+    background-color: #FFD09B;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="text"], form input[type="email"] {
+    background-color: #FFF7D1;
+}
+
+form button {
+    background-color: #FFB0B0;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FFEC8C;
+}
